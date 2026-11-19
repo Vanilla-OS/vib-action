@@ -1,4 +1,4 @@
-# vib-gh-action
+# vib-action
 
 GitHub Action to build a Vib image and optionally push it to a registry.
 
@@ -9,7 +9,7 @@ See [action.yml](action.yml)
 ```yml
 steps:
   - uses: actions/checkout@v4
-  - uses: vanilla-os/vib-gh-action@v1.1.0
+  - uses: vanilla-os/vib-action@v1.1.0
     with:
       recipe: 'myRecipe.yml'
       plugins: org/repo:tag,org/repo:tag
